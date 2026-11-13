@@ -28,6 +28,9 @@ Most system design material lists components without saying why they're there, o
 - [Design a Distributed Key-Value Store](https://systemdesignroad.in/practice/kv-store/read/)
 - [Design a File Sync Service (Dropbox-style)](https://systemdesignroad.in/practice/file-sync/read/)
 - [Design a Ticket Booking System](https://systemdesignroad.in/practice/ticket-booking/read/)
+- [Design a Ride-Hailing App Like Uber](https://systemdesignroad.in/practice/ride-hailing/read/)
+- [Design a Video Streaming Platform Like YouTube](https://systemdesignroad.in/practice/video-streaming/read/)
+- [Design a Payment System](https://systemdesignroad.in/practice/payment-system/read/)
 
 ## Low-level design problems (Java)
 
@@ -41,6 +44,9 @@ Most system design material lists components without saying why they're there, o
 - [Tic-Tac-Toe](https://systemdesignroad.in/lld/tic-tac-toe/read/)
 - [Snakes and Ladders](https://systemdesignroad.in/lld/snakes-and-ladders/read/)
 - [Chess](https://systemdesignroad.in/lld/chess/read/)
+- [ATM](https://systemdesignroad.in/lld/atm/read/)
+- [Pub-Sub Message Queue](https://systemdesignroad.in/lld/pub-sub/read/)
+- [Logging Framework](https://systemdesignroad.in/lld/logging-framework/read/)
 
 ## Popular lessons
 
