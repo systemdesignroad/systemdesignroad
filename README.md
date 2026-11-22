@@ -13,7 +13,7 @@ Most system design material lists components without saying why they're there, o
 | 📚 [**The course**](https://systemdesignroad.in/what-happens-when-you-open-an-app/) | 37 lessons in eight parts, from DNS and databases to sharding, consensus, multi-region and payments, with real numbers and interactive diagrams |
 | 🎮 [**The simulation**](https://systemdesignroad.in/simulation/) | Make Chirp's design decisions yourself, then watch real traffic test them |
 | 🎯 [**Interview practice**](https://systemdesignroad.in/practice/) | 23 system design questions, practised stage by stage like a real 45-minute round |
-| 🧩 [**Low-level design**](https://systemdesignroad.in/lld/) | OOP, SOLID, design patterns and concurrency, then 22 LLD problems with Java that compiles ([code in this repo](./lld)) |
+| 🧩 [**Low-level design**](https://systemdesignroad.in/lld/) | OOP, SOLID, design patterns and concurrency, then 22 LLD problems with Java that compiles ([Java code](https://github.com/systemdesignroad/low-level-design-java)) |
 | 🔥 [**Engineering blogs**](https://systemdesignroad.in/blogs/) | Famous outages retold in plain words, and what the engineers learned |
 
 ## Interview questions with answers
@@ -47,34 +47,34 @@ Most system design material lists components without saying why they're there, o
 - [Design a metrics and alerting system](https://systemdesignroad.in/practice/metrics-alerting/read/)
 - [Design Google Docs (collaborative editing)](https://systemdesignroad.in/practice/google-docs/read/)
 
-## Low-level design problems, with Java code in this repo
+## Low-level design problems, with Java code
 
-Every problem's design is in [`lld/`](./lld), and it compiles with Java 21.
+Every problem's design is in [**low-level-design-java**](https://github.com/systemdesignroad/low-level-design-java), and it compiles with Java 21.
 
 | Walkthrough | Level | Code |
 |---|---|---|
-| [Design a parking lot](https://systemdesignroad.in/lld/parking-lot/read/) | Easy | [Java](./lld/parking-lot) |
-| [Design tic-tac-toe](https://systemdesignroad.in/lld/tic-tac-toe/read/) | Easy | [Java](./lld/tic-tac-toe) |
-| [Design snakes and ladders](https://systemdesignroad.in/lld/snakes-and-ladders/read/) | Easy | [Java](./lld/snakes-and-ladders) |
-| [Design a logging framework](https://systemdesignroad.in/lld/logging-framework/read/) | Easy | [Java](./lld/logging-framework) |
-| [Design an LRU cache](https://systemdesignroad.in/lld/lru-cache/read/) | Medium | [Java](./lld/lru-cache) |
-| [Design a vending machine](https://systemdesignroad.in/lld/vending-machine/read/) | Medium | [Java](./lld/vending-machine) |
-| [Design Splitwise](https://systemdesignroad.in/lld/splitwise/read/) | Medium | [Java](./lld/splitwise) |
-| [Design a movie ticket booking system](https://systemdesignroad.in/lld/movie-ticket-booking/read/) | Medium | [Java](./lld/movie-ticket-booking) |
-| [Design a rate limiter (LLD)](https://systemdesignroad.in/lld/api-rate-limiter/read/) | Medium | [Java](./lld/api-rate-limiter) |
-| [Design an ATM](https://systemdesignroad.in/lld/atm/read/) | Medium | [Java](./lld/atm) |
-| [Design a pub-sub message queue](https://systemdesignroad.in/lld/pub-sub/read/) | Medium | [Java](./lld/pub-sub) |
-| [Design a library management system](https://systemdesignroad.in/lld/library-management/read/) | Medium | [Java](./lld/library-management) |
-| [Design a hotel booking system](https://systemdesignroad.in/lld/hotel-booking/read/) | Medium | [Java](./lld/hotel-booking) |
-| [Design a food delivery app](https://systemdesignroad.in/lld/food-delivery/read/) | Medium | [Java](./lld/food-delivery) |
-| [Design an in-memory file system](https://systemdesignroad.in/lld/file-system/read/) | Medium | [Java](./lld/file-system) |
-| [Design a key-value store with transactions](https://systemdesignroad.in/lld/kv-transactions/read/) | Medium | [Java](./lld/kv-transactions) |
-| [Design a shopping cart with discounts](https://systemdesignroad.in/lld/shopping-cart/read/) | Medium | [Java](./lld/shopping-cart) |
-| [Design a text editor with undo and redo](https://systemdesignroad.in/lld/text-editor/read/) | Medium | [Java](./lld/text-editor) |
-| [Design a meeting scheduler](https://systemdesignroad.in/lld/meeting-scheduler/read/) | Medium | [Java](./lld/meeting-scheduler) |
-| [Design a notification system](https://systemdesignroad.in/lld/notification-service/read/) | Medium | [Java](./lld/notification-service) |
-| [Design an elevator system](https://systemdesignroad.in/lld/elevator/read/) | Hard | [Java](./lld/elevator) |
-| [Design chess](https://systemdesignroad.in/lld/chess/read/) | Hard | [Java](./lld/chess) |
+| [Design a parking lot](https://systemdesignroad.in/lld/parking-lot/read/) | Easy | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/parking-lot) |
+| [Design tic-tac-toe](https://systemdesignroad.in/lld/tic-tac-toe/read/) | Easy | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/tic-tac-toe) |
+| [Design snakes and ladders](https://systemdesignroad.in/lld/snakes-and-ladders/read/) | Easy | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/snakes-and-ladders) |
+| [Design a logging framework](https://systemdesignroad.in/lld/logging-framework/read/) | Easy | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/logging-framework) |
+| [Design an LRU cache](https://systemdesignroad.in/lld/lru-cache/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/lru-cache) |
+| [Design a vending machine](https://systemdesignroad.in/lld/vending-machine/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/vending-machine) |
+| [Design Splitwise](https://systemdesignroad.in/lld/splitwise/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/splitwise) |
+| [Design a movie ticket booking system](https://systemdesignroad.in/lld/movie-ticket-booking/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/movie-ticket-booking) |
+| [Design a rate limiter (LLD)](https://systemdesignroad.in/lld/api-rate-limiter/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/api-rate-limiter) |
+| [Design an ATM](https://systemdesignroad.in/lld/atm/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/atm) |
+| [Design a pub-sub message queue](https://systemdesignroad.in/lld/pub-sub/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/pub-sub) |
+| [Design a library management system](https://systemdesignroad.in/lld/library-management/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/library-management) |
+| [Design a hotel booking system](https://systemdesignroad.in/lld/hotel-booking/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/hotel-booking) |
+| [Design a food delivery app](https://systemdesignroad.in/lld/food-delivery/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/food-delivery) |
+| [Design an in-memory file system](https://systemdesignroad.in/lld/file-system/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/file-system) |
+| [Design a key-value store with transactions](https://systemdesignroad.in/lld/kv-transactions/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/kv-transactions) |
+| [Design a shopping cart with discounts](https://systemdesignroad.in/lld/shopping-cart/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/shopping-cart) |
+| [Design a text editor with undo and redo](https://systemdesignroad.in/lld/text-editor/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/text-editor) |
+| [Design a meeting scheduler](https://systemdesignroad.in/lld/meeting-scheduler/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/meeting-scheduler) |
+| [Design a notification system](https://systemdesignroad.in/lld/notification-service/read/) | Medium | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/notification-service) |
+| [Design an elevator system](https://systemdesignroad.in/lld/elevator/read/) | Hard | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/elevator) |
+| [Design chess](https://systemdesignroad.in/lld/chess/read/) | Hard | [Java](https://github.com/systemdesignroad/low-level-design-java/tree/main/chess) |
 
 ## Popular lessons
 
